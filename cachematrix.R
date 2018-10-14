@@ -42,13 +42,13 @@ i <- x$getinverse()
 }
 
 ##Testing
-> B <- matrix(c(1,2,3,4),2,2)
-> B1 <- makeCacheMatrix(B)
-> cacheSolve(B1)
+> Q <- matrix(c(1,2,3,4),2,2)
+> Q1 <- makeCacheMatrix(Q)
+> cacheSolve(Q1)
      [,1] [,2]
 [1,]   -2  1.5
 [2,]    1 -0.5
-> cacheSolve(B1)
+> cacheSolve(Q1)
 ##getting cached data
      [,1] [,2]
 [1,]   -2  1.5
